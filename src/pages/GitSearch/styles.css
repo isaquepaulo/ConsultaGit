@@ -1,0 +1,91 @@
+.CardSearch{
+    background: #E6F7FF;
+    padding: 30px;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.search-button {
+    color: #fff;
+}
+
+
+.container-result{
+    background: #F5F5F5;
+    border-radius: 6px;
+}
+
+.container-info{
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    padding: 10px 30px 10px 30px;
+    width: 65%;
+    
+
+}
+
+
+.perfil-info{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    
+
+}
+
+
+@media(max-width:520px){
+    .container-info{
+        width: 100%;
+    }
+
+    .container-result{
+        margin-top: 10px;
+    }
+   .container-img{
+       margin-bottom: 30px;
+   }
+
+    .perfil-info{
+        margin-top: 10px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .perfil-info h2{
+        margin-top: 10px;
+        font-size: 16px;
+
+    }
+
+}
+
+
+@media(max-width:767px){
+    .container-info{
+        width: 100%;
+    }
+
+    .container-result{
+        margin-top: 10px;
+    }
+   .container-img{
+       margin-bottom: 30px;
+   }
+
+    .perfil-info{
+        margin-top: 10px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .perfil-info h2{
+        margin-top: 10px;
+        font-size: 16px;
+
+    }
+
+}
